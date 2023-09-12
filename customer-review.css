@@ -1,0 +1,89 @@
+.review-section {
+    margin-top: 4rem;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.moana-pic {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.mike-pic {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.card {
+    margin: auto;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: none !important; 
+    background-clip: border-box;
+    border: 1px solid #fff !important;
+}
+.card-body {
+    border-radius: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.carousel-control-prev {
+    width: 45px;
+    height: 45px;
+    background-color: orangered;
+    color: #fff;
+    /* margin: 0 5px; */
+    outline: none;
+    border-radius: 100px;
+    margin-top: 40px !important;
+    /* margin-left: 0px; */
+    position: relative;
+    top: -30px;
+    left: 570px;
+} 
+
+.carousel-control-next {
+    width: 45px;
+    height: 45px;
+    background-color: orangered;
+    color: #fff;
+    /* margin: 0 5px; */
+    outline: none;
+    border-radius: 100px;
+    margin-top: 92px !important;
+    /* margin-right: -700px; */
+    position: relative;
+    top: -165px;
+    left: 700px;
+}
+.carousel-indicators {
+    margin-bottom: 8rem !important;
+}
+
+
+@media (max-width: 795px){
+    #container1{
+        height: 348px;
+    }
+    .carousel-control-prev{
+        position: relative;
+        top: -30px;
+        left: 85px;
+    }
+    .carousel-control-next{
+        position: relative;
+        top: -165px;
+        left: 200px;
+    }
+}
